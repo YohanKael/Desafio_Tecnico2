@@ -1,0 +1,46 @@
+
+.cima {
+    display: inline-block;
+    justify-content: space-between;
+    border: 3px solid #617794;
+    border-radius: 10px;
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    align-items: center;
+    width: 170px;
+    text-align: center;
+    font-size: 15px;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.baixo{
+    display: inline-block;
+    justify-content: space-between;
+    /* border-radius: 10px; */
+    /* padding-right: 40px;
+    padding-left: 40px; */
+    align-items: center;
+    width: 175px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.card{
+    border-radius: 10px;
+    width: fit-content;
+    display: grid;
+    background-color: #bdc7da;
+    margin: 10px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
