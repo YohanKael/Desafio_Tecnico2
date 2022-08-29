@@ -1,12 +1,12 @@
-import './Informacoes.css';
+import './Infos.css';
 
-const Informacoes = (props) => {
+const Infos = ({data}) => {
     return (
         <div>
             <div className='informacoes'>
-                <Card titulo="Titulo 1" subTitulo="SubTitulo 1"/>
-                <Card titulo="Titulo 2" subTitulo="SubTitulo 2"/>
-                <Card titulo="Titulo 2" subTitulo="SubTitulo 2"/>
+                <Card titulo={!data ? null : data[0][0]} subTitulo={!data ? null : data[0][1]}/>
+                <Card titulo={!data ? null : data[1][0]} subTitulo={!data ? null : data[1][1]}/>
+                <Card titulo={!data ? null : data[2][0]} subTitulo={!data ? null : data[2][1]}/>
             </div>
         </div>
     )
@@ -25,4 +25,4 @@ const Card = (props) => {
     )
 }
 
-export default Informacoes;
+export default Infos;

@@ -1,13 +1,28 @@
-import Infos from '../informacoes/Informacoes.jsx'
+import Infos from '../infos/Infos.jsx'
 import Profile from '../profile/Profile.jsx'
 import './Header.css';
 
-const Header = () => {
+const Header = ({ headerData, changeUserId}) => {
   return (
     <div className='header'>
-        <Infos/>
-        <Profile/>
-        <Infos/>
+      <Infos data={[
+        ["Diretoria", headerData.manager],
+        ["Desempenho", "Box " + headerData.box],
+        ["Risco", headerData.risk === null ? "N/A" : headerData.risk]
+        ]}/>
+      <Profile profileData={{
+        avatar: headerData.avatar,
+        name: headerData.name,
+        age: headerData.age,
+        role: headerData.role
+      }}
+      changeUserId={changeUserId}
+      />
+      <Infos data={[
+        ["Salário", headerData.salary],
+        ["PIR", headerData.pir],
+        ["GF", headerData.gf]
+        ]}/>
     </div>
   )
 }

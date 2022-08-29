@@ -1,2 +1,134 @@
 .Tables {
+    overflow-x:auto
+}
+
+.leftTable {
+    border: 0px solid #ffab1e;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #ffab1e;
+    font-size: 17px;
+    color: white;
+
+}
+
+.leftText {
+    text-align: left;
+    background-color: #ffffff;
+    padding-inline: 30px;
+    font-size: 1em;
+    color: #5c7392;
+    padding: 6px;
+    border-bottom: 1px solid #ffab1e;
+    
+}
+.leftButtons{
+    display: grid;
+    border: 1px solid #ffab1e;
+    border-radius: 15px;
+    align-items: center;
+    width: 165px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    background-color: #ffab1e;
+    height: 55px;
+}
+
+.bottomButtons{
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   
+   
+}
+
+.rightTable {
+    border: 0px solid #7dac3e;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #7dac3e;
+    font-size: 17px;
+    color: white;
+ 
+}
+
+.rightText {
+    text-align: left;
+    background-color: #ffffff;
+    padding-inline: 30px;
+    font-size: 1em;
+    color: #5c7392;
+    padding: 6px;
+}
+
+.rightButtons{
+    display: grid;
+    border: 1px solid #7dac3e;
+    border-radius: 15px;
+    align-items: center;
+    width: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 10px;
+    color: white;
+    background-color: #7dac3e;
+    height: 55px;
+
+}
+
+.greenTable{
+    float:right;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orangeTable{
+    display:inline-block;
+    margin-left: 10%;
+    
+}
+
+.leftTitle{
+    padding: 8px;
+    font-weight: bolder;
+}
+
+.rightTitle{
+    padding: 8px;
+    font-weight: bolder;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.leftWrapper{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+}
+
+.rightWrapper{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #7dac3e;
+    flex-direction: column;
+}
+
+.table-row {
+    display: flex;
+    width: 100%;
 }
