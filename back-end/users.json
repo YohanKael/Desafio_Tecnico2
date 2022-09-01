@@ -1,0 +1,310 @@
+{
+    "1": {
+        "nome": "Natália Souza",
+        "dataNascimento": "1996-01-01",
+        "avatar": "profile_1.png",
+        "diretoria": "Marketing",
+        "area": "Conteúdo",
+        "subArea": "Social Media",
+        "cargo": "Analista de Marketing",
+        "posicao": "Analista pleno",
+        "gestorImediato": "Vanessa Andrade",
+        "dataInicioCargo": "2020-03-01",
+        "dataInicioArea": "2018-03-01",
+        "box": 8,
+        "sucessor": true,
+        "talento": true,
+        "elegibilidadePromocao": false,
+        "remuneracao": {
+            "salario": "R$ 4000",
+            "remuneracaoTotal": 7000,
+            "gf": 11,
+            "nv": 3,
+            "pir": 0.9,
+            "dataUltimoAumento": "2022-04-01",
+            "premio": false,
+            "bonusPlr": false,
+            "adicionais": 1000,
+            "percentualUltimoAumento": 0.1
+        },
+        "progressao": [
+            {
+                "tipo": "contratacao",
+                "data": "01/02/2018",
+                "titulo": "Contratação",
+                "subTitulo": "Analista Júnior"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/08/2018",
+                "titulo": "1o AD",
+                "subTitulo": "Box 5"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/01/2019",
+                "titulo": "Progressão",
+                "subTitulo": "6%"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/04/2019",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/08/2020",
+                "titulo": "2o AD",
+                "subTitulo": "Box 8"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/12/2020",
+                "titulo": "Promoção",
+                "subTitulo": "Analista Pleno"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/03/2021",
+                "titulo": "Progressão",
+                "subTitulo": "10%"
+            }
+        ]
+    },
+    "2": {
+        "nome": "João Silva",
+        "dataNascimento": "1990-01-01",
+        "avatar": "profile_2.png",
+        "diretoria": "Tecnologia",
+        "area": "Desenvolvimento",
+        "subArea": "Front-End",
+        "cargo": "Engenheiro de Software",
+        "posicao": "Desenvolvedor Senior",
+        "gestorImediato": "Paulo Rocha",
+        "dataInicioCargo": "2022-05-15",
+        "dataInicioArea": "2019-12-22",
+        "box": 12,
+        "sucessor": false,
+        "talento": true,
+        "elegibilidadePromocao": true,
+        "remuneracao": {
+            "salario": "R$ 6500",
+            "remuneracaoTotal": 9850,
+            "gf": 13,
+            "nv": 4,
+            "pir": 0.9,
+            "dataUltimoAumento": "2022-01-17",
+            "premio": 1000,
+            "bonusPlr": 4250,
+            "adicionais": 2300,
+            "percentualUltimoAumento": 0.15
+        },
+        "progressao": [
+            {
+                "tipo": "contratacao",
+                "data": "01/02/2019",
+                "titulo": "Contratação",
+                "subTitulo": "Analista Pleno"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2019",
+                "titulo": "1o AD",
+                "subTitulo": "Box 9"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/06/2019",
+                "titulo": "Progressão",
+                "subTitulo": "10%"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2019",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/10/2019",
+                "titulo": "2o AD",
+                "subTitulo": "Box 10"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/12/2019",
+                "titulo": "Promoção",
+                "subTitulo": "Analista Senior"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/02/2020",
+                "titulo": "Progressão",
+                "subTitulo": "15%"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/01/2020",
+                "titulo": "3o AD",
+                "subTitulo": "Box 11"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/04/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2020",
+                "titulo": "4o AD",
+                "subTitulo": "Box 12"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/06/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2020",
+                "titulo": "5o AD",
+                "subTitulo": "Box 13"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/01/2020",
+                "titulo": "3o AD",
+                "subTitulo": "Box 11"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/04/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2020",
+                "titulo": "4o AD",
+                "subTitulo": "Box 12"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/06/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2020",
+                "titulo": "5o AD",
+                "subTitulo": "Box 13"
+            },
+            {
+                "tipo": "contratacao",
+                "data": "01/02/2019",
+                "titulo": "Contratação",
+                "subTitulo": "Analista Pleno"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2019",
+                "titulo": "1o AD",
+                "subTitulo": "Box 9"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/06/2019",
+                "titulo": "Progressão",
+                "subTitulo": "10%"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2019",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/10/2019",
+                "titulo": "2o AD",
+                "subTitulo": "Box 10"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/12/2019",
+                "titulo": "Promoção",
+                "subTitulo": "Analista Senior"
+            },
+            {
+                "tipo": "progresso",
+                "data": "01/02/2020",
+                "titulo": "Progressão",
+                "subTitulo": "15%"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/01/2020",
+                "titulo": "3o AD",
+                "subTitulo": "Box 11"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/04/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2020",
+                "titulo": "4o AD",
+                "subTitulo": "Box 12"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/06/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2020",
+                "titulo": "5o AD",
+                "subTitulo": "Box 13"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/01/2020",
+                "titulo": "3o AD",
+                "subTitulo": "Box 11"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/04/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/05/2020",
+                "titulo": "4o AD",
+                "subTitulo": "Box 12"
+            },
+            {
+                "tipo": "evento",
+                "data": "01/06/2020",
+                "titulo": "Sucessor",
+                "subTitulo": null
+            },
+            {
+                "tipo": "evento",
+                "data": "01/07/2020",
+                "titulo": "5o AD",
+                "subTitulo": "Box 13"
+            }
+        ]
+    }
+}
