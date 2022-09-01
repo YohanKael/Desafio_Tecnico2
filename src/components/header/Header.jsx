@@ -9,20 +9,20 @@ const Header = ({ headerData, changeUserId}) => {
         ["Diretoria", headerData.manager],
         ["Desempenho", "Box " + headerData.box],
         ["Risco", headerData.risk === null ? "N/A" : headerData.risk]
-        ]}/>
+      ]} />
       <Profile profileData={{
         avatar: headerData.avatar,
         name: headerData.name,
         age: headerData.age,
         role: headerData.role
       }}
-      changeUserId={changeUserId}
+        changeUserId={changeUserId}
       />
       <Infos data={[
         ["Salário", headerData.salary],
-        ["PIR", headerData.pir],
+        ["PIR", headerData.pir * 100 + "%"],
         ["GF", headerData.gf]
-        ]}/>
+      ]} />
     </div>
   )
 }

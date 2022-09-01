@@ -10,8 +10,89 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
-.arrow {
+.leftArrow {
     padding-inline: 30px;
+    border: solid #6d84a4;
+    border-width: 0 4px 4px 0;
+    right: 0px;
+    display: flex;
+    padding: 8px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    cursor: pointer;
+}
+
+.rightArrow {
+    padding-inline: 30px;
+    border: solid #6d84a4;
+    border-width: 0 4px 4px 0;
+    right: 0px;
+    display: flex;
+    padding: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border-left: 25px;
+    cursor: pointer;
+}
+
+.leftArrow.disabled {
+    padding-inline: 30px;
+    border: solid #e0e0e0;
+    border-width: 0 4px 4px 0;
+    right: 0px;
+    display: flex;
+    padding: 8px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    cursor: auto;
+}
+
+.rightArrow.disabled {
+    padding-inline: 30px;
+    border: solid #e0e0e0;
+    border-width: 0 4px 4px 0;
+    right: 0px;
+    display: flex;
+    padding: 8px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    border-left: 25px;
+    cursor: auto;
+}
+
+.profileItalic {
+    font-style: italic;
+    color: #5c7392;
+    font-size: larger;
+    margin-top: 10px;
+    padding-inline: 4px;
+}
+
+.profileBolder {
+    font-weight: bolder;
+    color: #5c7392;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+}
+
+.profileMoreInfo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 318px) {
+    .profileSeparator {
+        display: none;
+    }
+    .profileMoreInfo {
+        display: flex;
+        flex-direction: column;
+    }
 }

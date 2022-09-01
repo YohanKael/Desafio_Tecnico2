@@ -1,17 +1,18 @@
 .Tables {
-    overflow-x:auto
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
 }
 
 .leftTable {
-    border: 0px solid #ffab1e;
     border-radius: 10px;
     width: 600px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: #ffab1e;
     font-size: 17px;
     color: white;
-
 }
 
 .leftText {
@@ -21,10 +22,10 @@
     font-size: 1em;
     color: #5c7392;
     padding: 6px;
-    border-bottom: 1px solid #ffab1e;
-    
+
 }
-.leftButtons{
+
+.leftButtons {
     display: grid;
     border: 1px solid #ffab1e;
     border-radius: 15px;
@@ -38,26 +39,25 @@
     color: white;
     background-color: #ffab1e;
     height: 55px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
-.bottomButtons{
-   display: flex;
-   justify-content: space-between;
-   background-color: white;
-   
-   
+.bottomButtons {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
 }
 
 .rightTable {
-    border: 0px solid #7dac3e;
     border-radius: 10px;
     width: 600px;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: #7dac3e;
     font-size: 17px;
     color: white;
- 
+
 }
 
 .rightText {
@@ -69,7 +69,7 @@
     padding: 6px;
 }
 
-.rightButtons{
+.rightButtons {
     display: grid;
     border: 1px solid #7dac3e;
     border-radius: 15px;
@@ -82,53 +82,76 @@
     color: white;
     background-color: #7dac3e;
     height: 55px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    cursor: pointer;
 
 }
 
-.greenTable{
-    float:right;
-    margin-right: 10%;
+.greenTable {
+    float: right;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 0 10px 7px;
 }
 
-.orangeTable{
-    display:inline-block;
-    margin-left: 10%;
-    
+.orangeTable {
+    display: inline-block;
+    padding: 10px 7px 10px 0;
 }
 
-.leftTitle{
+.leftTitle {
     padding: 8px;
     font-weight: bolder;
 }
 
-.rightTitle{
+.rightTitle {
     padding: 8px;
     font-weight: bolder;
 }
 
-.italic{
+.italic {
     font-style: italic;
+    color: #5c7392;
 }
 
-.leftWrapper{
+.leftWrapper {
     display: flex;
     width: 100%;
     background-color: white;
     flex-direction: column;
 }
 
-.rightWrapper{
+.rightWrapper {
     display: flex;
     width: 100%;
     background-color: white;
+    flex-direction: column;
+}
+
+.tableRight-row {
+    display: flex;
+    width: 100%;
     border-bottom: 1px solid #7dac3e;
-    flex-direction: column;
 }
 
-.table-row {
+.tableLeft-row {
     display: flex;
     width: 100%;
+    border-bottom: 1px solid #ffab1e;
 }
+
+.marginLeft{
+    margin-left:20px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .Tables {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+

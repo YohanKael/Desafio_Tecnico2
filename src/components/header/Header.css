@@ -8,3 +8,9 @@
 .header img {
     width: 120px
 }
+
+@media screen and (max-width: 1500px) {
+    .informacoes {
+        display: none;
+    }
+}

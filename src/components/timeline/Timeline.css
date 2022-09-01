@@ -1,11 +1,39 @@
 /* ---- Timeline ---- */
+
+/* width */
+.scroll::-webkit-scrollbar {
+  height: 12px;
+  border-radius: 10px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  background: rgb(228, 228, 228);
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: #8fa6c7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #6d84a4;
+  border-radius: 10px;
+}
+
 .scroll {
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  height: 200px;
+  height: 210px;
+  min-height: 210px;
+  margin-inline: 30px;
 }
+
 ol{
   min-width: 80%;
 }
