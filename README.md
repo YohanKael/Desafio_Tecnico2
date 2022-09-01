@@ -8,18 +8,25 @@ O front end obtém as informações do usuário de forma dinâmica fazendo requi
 
 # Download do projeto
 
-> $ git clone https://github.com/YohanKael/Desafio_Tecnico2.git
+``` bash 
+$ git clone https://github.com/YohanKael/Desafio_Tecnico2.git 
+```
 
 ## Instalação Back End
 
 Partindo da base do projeto: 
-> $ cd back-end
-> $ npm install
-> npm start
+``` bash
+$ cd back-end
+$ npm install
+$ npm start
+```
 
 ## Instalação Front End
 
-Partindo da base do projeto: 
-> $ cd front-end
-> $ npm install
-> npm start
+Partindo da base do projeto:
+
+```bash
+$ cd front-end
+$ npm install
+$ npm start
+```
